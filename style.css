@@ -2,20 +2,20 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: #1F2937;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .logo {
     height: 69px;
     width: auto;
+    margin-top: 10px;
+    margin-right: 50px;
 }
 
 nav {
     display: flex;
     justify-content: space-around;
-
-
+    background-color: #1F2937;
 }
 
 .links {
@@ -37,12 +37,14 @@ a:link {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: #1F2937;
 }
 
 h1 {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    margin-bottom: -10px;
 }
 
 .hero-content p {
@@ -54,4 +56,29 @@ h1 {
     font-size: 18px;
     color: #e5e7eb;
     background-color: #3882f6;
+}
+
+/* NEW SECTION */
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    align-items: center;
+}
+
+.container div {
+    width: 250px;
+    text-align: center;
+}
+
+.container div img {
+    width: 100px;
+    height: 100px;
 }
